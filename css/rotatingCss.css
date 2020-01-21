@@ -19,33 +19,30 @@
 
 .square {
     transition-property: transform;
-    transition-duration: 5s;
+    transition-duration: 7s;
 }
 
 .square:hover {
-    transform: rotateX(360deg);
+    transform: rotateX(180deg);
 }
 
 .square-red {
     transition-property: transform;
-    transition-duration: 5s;
+    transition-duration: 7s;
 }
 
 .square-red:hover {
-    transform: rotateX(360deg);
+    transform: rotateX(180deg);
 }
 
 .red{
-    background: #ffffe6;
+    background: white;
     animation: rotate 11s infinite linear;
 }
 
 @keyframes rotate{
 0%{ transform: rotate(0deg); }
 100%{ transform: rotate(360deg); }
-80%{
-    background-color: #FFF;
-}
 }
 
 
