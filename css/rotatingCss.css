@@ -1,0 +1,51 @@
+.container{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+}
+
+.square{
+    height: 94%;
+    width: 94%;
+    background: #F2D752;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -47% 0 0 -47%;
+}
+
+.square {
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+.square:hover {
+    transform: rotateX(360deg);
+}
+
+.square-red {
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+.square-red:hover {
+    transform: rotateX(360deg);
+}
+
+.red{
+    background: #ffffe6;
+    animation: rotate 11s infinite linear;
+}
+
+@keyframes rotate{
+0%{ transform: rotate(0deg); }
+100%{ transform: rotate(360deg); }
+80%{
+    background-color: #FFF;
+}
+}
+
+
